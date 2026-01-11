@@ -2,9 +2,9 @@ import { NavLink, useLocation } from 'react-router-dom';
 import {
   Activity,
   LayoutDashboard,
-  ArrowLeftRight,
+  GitPullRequest,
   TestTube,
-  UserCheck,
+  Hourglass,
   BarChart3,
   Package,
   LogOut
@@ -14,9 +14,9 @@ import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 
 const navItems = [
   {icon: Activity, label: 'Dashboard', path: '/' },
-  { icon: ArrowLeftRight, label: 'Requests', path: '/requests' },
+  { icon: GitPullRequest, label: 'Requests', path: '/requests' },
   { icon: TestTube, label: 'Samples', path: '/samples' },
-  { icon: UserCheck, label: 'Pending', path: '/pending' },
+  { icon: Hourglass, label: 'Pending', path: '/pending' },
   { icon: BarChart3, label: 'Reports', path: '/reports' },
   { icon: Package, label: 'Inventory', path: '/inventory' },
 ];
