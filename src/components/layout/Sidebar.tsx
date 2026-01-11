@@ -10,7 +10,7 @@ import {
   LogOut
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import { Avatar, AvatarFallback } from '@/components/ui/avatar';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 const navItems = [
   {icon: Activity, label: 'Dashboard', path: '/' },
@@ -68,6 +68,7 @@ export function Sidebar({ onNavigate }: SidebarProps) {
       <div className="p-4 border-t border-border">
         <div className="flex items-center gap-3">
           <Avatar className="h-9 w-9">
+            <AvatarImage src="/surgeon_13297756 1.png" alt="Dr. Sarah Johnson" />
             <AvatarFallback className="bg-primary/10 text-primary text-sm">SJ</AvatarFallback>
           </Avatar>
           <div className="flex-1 min-w-0">
