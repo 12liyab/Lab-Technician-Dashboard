@@ -18,7 +18,8 @@ interface PendingRequestsTableProps {
 export function PendingRequestsTable({ requests, onProcess }: PendingRequestsTableProps) {
   return (
     <div className="bg-card rounded-lg border border-border overflow-hidden">
-      <Table>
+      <div className="overflow-x-auto">
+        <Table>
         <TableHeader>
           <TableRow>
             <TableHead>PATIENT</TableHead>
@@ -65,7 +66,8 @@ export function PendingRequestsTable({ requests, onProcess }: PendingRequestsTab
             </TableRow>
           ))}
         </TableBody>
-      </Table>
+        </Table>
+      </div>
     </div>
   );
 }

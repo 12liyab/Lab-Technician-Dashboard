@@ -33,7 +33,8 @@ export function SampleTable({ samples, onStatusChange }: SampleTableProps) {
       <div className="p-4 border-b border-border">
         <h3 className="font-semibold text-foreground">Sample Tracking</h3>
       </div>
-      <Table>
+      <div className="overflow-x-auto">
+        <Table>
         <TableHeader>
           <TableRow>
             <TableHead>SAMPLE ID</TableHead>
@@ -79,7 +80,8 @@ export function SampleTable({ samples, onStatusChange }: SampleTableProps) {
             </TableRow>
           ))}
         </TableBody>
-      </Table>
+        </Table>
+      </div>
     </div>
   );
 }

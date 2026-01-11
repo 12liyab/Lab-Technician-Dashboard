@@ -26,7 +26,8 @@ export function InventoryTable({ items, onRequestRestock }: InventoryTableProps)
       <div className="p-4 border-b border-border">
         <h3 className="font-semibold text-foreground">Reagent & Supply Stock Levels</h3>
       </div>
-      <Table>
+      <div className="overflow-x-auto">
+        <Table>
         <TableHeader>
           <TableRow>
             <TableHead>ITEM</TableHead>
@@ -62,7 +63,8 @@ export function InventoryTable({ items, onRequestRestock }: InventoryTableProps)
             </TableRow>
           ))}
         </TableBody>
-      </Table>
+        </Table>
+      </div>
     </div>
   );
 }
