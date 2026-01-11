@@ -1,5 +1,6 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import {
+  Activity,
   LayoutDashboard,
   ArrowLeftRight,
   TestTube,
@@ -12,7 +13,7 @@ import { cn } from '@/lib/utils';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 
 const navItems = [
-  { icon: LayoutDashboard, label: 'Dashboard', path: '/' },
+  {icon: Activity, label: 'Dashboard', path: '/' },
   { icon: ArrowLeftRight, label: 'Requests', path: '/requests' },
   { icon: TestTube, label: 'Samples', path: '/samples' },
   { icon: UserCheck, label: 'Pending', path: '/pending' },
