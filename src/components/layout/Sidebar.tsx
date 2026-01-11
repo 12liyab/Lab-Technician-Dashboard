@@ -1,10 +1,10 @@
 import { NavLink, useLocation } from 'react-router-dom';
-import { 
-  LayoutDashboard, 
-  ArrowLeftRight, 
-  TestTube, 
-  UserCheck, 
-  BarChart3, 
+import {
+  LayoutDashboard,
+  ArrowLeftRight,
+  TestTube,
+  UserCheck,
+  BarChart3,
   Package,
   LogOut
 } from 'lucide-react';
@@ -20,7 +20,11 @@ const navItems = [
   { icon: Package, label: 'Inventory', path: '/inventory' },
 ];
 
-export function Sidebar() {
+interface SidebarProps {
+  onNavigate?: () => void;
+}
+
+export function Sidebar({ onNavigate }: SidebarProps) {
   const location = useLocation();
 
   return (
@@ -46,10 +50,11 @@ export function Sidebar() {
             <NavLink
               key={item.path}
               to={item.path}
+              onClick={onNavigate}
               className={cn(
                 'flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors',
-                isActive 
-                  ? 'bg-primary text-primary-foreground' 
+                isActive
+                  ? 'bg-primary text-primary-foreground'
                   : 'text-sidebar-foreground hover:bg-sidebar-accent'
               )}
             >
