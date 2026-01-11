@@ -1,4 +1,4 @@
-import { FileText, Clock, CheckCircle, Timer } from 'lucide-react';
+import { GitPullRequest, Hourglass, CheckCircle, Timer } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface MetricCardProps {
@@ -8,8 +8,8 @@ interface MetricCardProps {
 }
 
 const iconConfig = {
-  request: { icon: FileText, className: 'metric-icon-purple' },
-  progress: { icon: Clock, className: 'metric-icon-blue' },
+  request: { icon: GitPullRequest, className: 'metric-icon-purple' },
+  progress: { icon: Hourglass, className: 'metric-icon-blue' },
   completed: { icon: CheckCircle, className: 'metric-icon-green' },
   time: { icon: Timer, className: 'metric-icon-orange' },
 };
