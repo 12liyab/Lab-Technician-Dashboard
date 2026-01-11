@@ -36,7 +36,7 @@ export function Sidebar({ onNavigate }: SidebarProps) {
           <img src="/photo_2025-11-15_16-16-40 1.png" className="w-8 h-8 rounded-lg" alt="Premier Care Logo" />
           <div>
             <h2 className="font-bold text-primary text-sm">Premier Care</h2>
-            <p className="text-xs text-primary">Lab Tech's Portal</p>
+            <p className="text-xs font-bold text-primary" style={{ color: '#1F64FF' }}>Lab Tech's Portal</p>
           </div>
         </div>
       </div>
