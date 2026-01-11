@@ -32,9 +32,7 @@ export function Sidebar({ onNavigate }: SidebarProps) {
       {/* Logo */}
       <div className="p-4 border-b border-border">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-            <TestTube className="h-5 w-5 text-primary-foreground" />
-          </div>
+          <img src="/photo_2025-11-15_16-16-40 1.png" className="w-8 h-8 rounded-lg" alt="Premier Care Logo" />
           <div>
             <h2 className="font-bold text-primary text-sm">Premier Care</h2>
             <p className="text-xs text-primary">Lab Tech's Portal</p>
