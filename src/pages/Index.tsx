@@ -1,4 +1,4 @@
-im Dashboard from './Dashboard';
+imp Dashboard from './Dashboard';
 
 const Index = () => {
   return <Dashboard />;
