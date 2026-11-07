@@ -1,6 +1,6 @@
 import Dashboard from './Dashboard';
 
- Index = () => {
+c Index = () => {
   return <Dashboard />;
 };
 
