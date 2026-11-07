@@ -1,4 +1,4 @@
-i Dashboard from './Dashboard';
+im Dashboard from './Dashboard';
 
 const Index = () => {
   return <Dashboard />;
