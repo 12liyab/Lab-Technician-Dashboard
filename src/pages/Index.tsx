@@ -1,4 +1,4 @@
-impo Dashboard from './Dashboard';
+impor Dashboard from './Dashboard';
 
 const Index = () => {
   return <Dashboard />;
