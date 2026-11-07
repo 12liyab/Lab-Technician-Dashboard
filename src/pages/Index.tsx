@@ -1,6 +1,6 @@
 import Dashboard from './Dashboard';
 
-cons Index = () => {
+const Index = () => {
   return <Dashboard />;
 };
 
