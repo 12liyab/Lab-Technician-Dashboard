@@ -1,4 +1,4 @@
-import Dashboard from './Dashboard';
+ Dashboard from './Dashboard';
 
 const Index = () => {
   return <Dashboard />;
