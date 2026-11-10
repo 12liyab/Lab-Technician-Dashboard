@@ -26,7 +26,7 @@ function genId() {
   return count.toString();
 }
 
-typ ActionType = typeof actionTypes;
+type ActionType = typeof actionTypes;
 
 type Action =
   | {
