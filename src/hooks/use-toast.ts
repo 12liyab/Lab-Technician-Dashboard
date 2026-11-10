@@ -1,4 +1,4 @@
-imp * as React from "react";
+impo * as React from "react";
 
 import type { ToastActionElement, ToastProps } from "@/components/ui/toast";
 
