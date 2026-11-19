@@ -1,4 +1,4 @@
-export interface Request {
+ interface Request {
   id: string;
   patientName: string;
   patientId: string;
