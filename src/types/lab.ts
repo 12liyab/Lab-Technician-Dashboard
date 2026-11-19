@@ -1,4 +1,4 @@
- interface Request {
+ex interface Request {
   id: string;
   patientName: string;
   patientId: string;
